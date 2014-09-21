@@ -22,6 +22,7 @@ def sad_tweet(tweet):
     return False
 
 def send_order(user):
+    
     print 'sending order'    
 
 client = MongoClient()
