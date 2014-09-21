@@ -1,90 +1,137 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="../static/css/foundation.css" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
   </head>
-  <body>
+  <body style="background-color: lemonchiffon;">
+	<nav class="top-bar" style="background-color: hotpink" data-topbar role="navigation">
+	  <ul class="title-area">
+	    <li class="name">
+	      <h1><a href="index.html">Sweet Depression</a></h1>
+	    </li>
+	     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	  </ul>
+	
+	  <section class="top-bar-section">
+	    <!-- Right Nav Section -->
+	    <ul class="right">
+	    </ul>
+	
+	    <!-- Left Nav Section -->
+	    <ul class="left">
+	    </ul>
+	  </section>
+	</nav>
+
+	<div class="row">
+		<div class="large-12 columns">
+  			<div class="panel" style="margin-top: 5%;">
     <form action="/confirm" method="post">
 			<!-- Basic Fields -->
-			
+			<div class="large-6 columns">	
 			<label>First Name
 				<input type="text" name="first_name"><br>
 			</label>
-
+		</div>
+			<div class="large-6 columns">
 			<label>Last Name
 				<input type="text" name="last_name"><br>
 			</label>
-
+		</div>
+			<div class="large-6 columns">	
 			<label>Email
 				<input type="email" name="email"><br>
       </label>
-
+  </div>
+			<div class="large-6 columns">
 			<label>Twitter Handle
 				<input type="text" name="twitter"><br>
-    	</label>
+			</label>
+		</div>
 
 			<!-- Address -->
 
+			<div class="large-6 columns">
 			<label>Street
 				<input type="text" name="street"><br>
 			</label>
-
+		</div>
+			<div class="large-6 columns">
 			<label>City
 				<input type="text" name="city"><br>
 			</label>
-
+		</div>
+			<div class="large-6 columns">
 			<label>State
 				<input type="text" name="state" max="2"><br>
 			</label>
-
+		</div>
+			<div class="large-6 columns">
 			<label>Zip Code
 				<input type="text" name="zip"><br>
 			</label>
-
+		</div>
 			<!-- Billing Information -->
 
+			<div class="large-6 columns">
 			<label>Credit Card #
 				<input type="text" name="credit_card"><br>
 			</label>
-
+		</div>
+			<div class="large-6 columns">
 			<label>CVC
 				<input type="text" name="cvc"><br>
 			</label>
-
+		</div>
+			<div class="large-3 columns">
 			<label>Billing Phone Number
 				<input type="phone" name="billing_phone_number"><br>
 			</label>
+		</div>
 
+			<div class="large-3 columns">
 			<label>Expiration Month
 				<input type"month" name="expiration_month"><br>
 			</label>
-
+		</div>
+			<div class="large-3 columns">
 			<label>Expiration Year
 				<input type="text" name="expiration_year" min="4" max="4"><br>
 			</label>
-
+		</div>
+			<div class="large-3 columns">
 			<label>Type
 				<input type="text" name="type"><br>
 			</label>
-
+		</div>
 			<!-- Advanced Credit Fields -->
 
+			<div class="large-12 columns">
 			<label>Billing Street
 				<input type="text" name="billing_street"><br>
 			</label>
-
+		</div>
+			<div class="large-4 columns">
 			<label>Billing City
 				<input type="text" name="billing_city"><br>
 			</label>
-
+		</div>
+			<div class="large-4 columns">
 			<label>Billing State
 				<input type="text" name="billing_state"><br>
 			</label>
-
+		</div>
+			<div class="large-4 columns">
 			<label>Billing Zip Code
 				<input type="text" name="billing_zip"><br>
 			</label>
-
-			<input type="submit" value="submit">
+		</div>
+		<input type="submit" value="submit" class="button" style="border-radius: 10px; background-color: hotpink;"></input>
 		</form>
+	</div>
+</div>
+</div>
   </body>
 </html>
